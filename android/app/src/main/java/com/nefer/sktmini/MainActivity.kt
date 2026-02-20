@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         val s = web.settings
 
         // WebView2019i taray0131c0131ya yakla015ft0131r (UI farklar0131n0131 azalt)
-        s.userAgentString = s.userAgentString.replace('; wv', '')
+        s.userAgentString = s.userAgentString.replace("; wv", "")
         s.useWideViewPort = true
         s.loadWithOverviewMode = true
 
